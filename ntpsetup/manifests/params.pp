@@ -1,7 +1,7 @@
 ##
 class ntpsetup::params (
  $server1 = 'ntpserver1.example.com',
- $server2 = 'ntpserver2.example.com'
+# $server2 = 'ntpserver2.example.com'
 ) {
  service { 'ntpd':
   ensure  => running,
